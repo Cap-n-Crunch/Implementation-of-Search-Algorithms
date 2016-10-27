@@ -4,7 +4,7 @@ earlier today to prepare himself for the game, and he is leaving from his mansio
 As everyone knows, Los Angeles is notorious for its traffic. Driving his 2016 Lamborghini Aventador, Jordan definitely does not 
 want to	be stuck in traffic. The task is to help Jordan find a route to get him to Staples Center as fast as possible.			
 
-To accomplish this,	you	will be	given a list of freeway or road intersections (i.e., locations) and the time it	would take to 
+To accomplish this, you will be	given a list of freeway or road intersections (i.e., locations) and the time it	would take to 
 travel from there to other freeway or road intersections. 
 
 The task is to create a program	that finds the fastest route Jordan must travel to get to Staples Center.
@@ -24,7 +24,7 @@ I10/I110 I10/I405 9
 I105/I110 I10/I110 7
 I10/I110 StaplesCenter 3
 
-Beside live traffic information, Jordan also has an idea of	how long it takes on a traffic-free Sunday from	 each 
+Beside live traffic information, Jordan also has an idea of how long it takes on a traffic-free Sunday from	 each 
 intersection/location to StaplesCenter.
 
 Hence, the input.txt file will also contain Jordan's Sunday traffic estimate of traveling time from each location 
@@ -41,7 +41,7 @@ I10/I405 39
 I105/I110 23
 StaplesCenter 0
 
-The program	writes in output.txt the list of intersections/locations traveled over in the solution path, including the 
+The program writes in output.txt the list of intersections/locations traveled over in the solution path, including the 
 starting and finishing locations and the accumulated time from start to that intersection/location, in order of travel, for example:
 
 JordanHome 0
@@ -80,6 +80,7 @@ i.e., <STATE1> <STATE2> <TRAVEL	TIME FROM STATE1 TO STATE2>
 <… SUNDAY TRAFFIC LINES	…> are lines of	sunday traffic information in the format described above,
 i.e., <STATE> <ESTIMATED TIME FROM STATE TO GOAL>
 
-Full	specification	for	output.txt:
+Full specification for output.txt:
+
 Any number of lines with the following format for each:
 <STATE> <ACCUMULATED TRAVEL TIME FROM START TO HERE>
