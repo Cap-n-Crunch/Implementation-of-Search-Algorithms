@@ -24,7 +24,7 @@ I10/I110 I10/I405 9
 I105/I110 I10/I110 7
 I10/I110 StaplesCenter 3
 
-Beside live traffic information, Jordan also has an idea of how long it takes on a traffic-free Sunday from	 each 
+Beside live traffic information, Jordan also has an idea of how long it takes on a traffic-free Sunday from each 
 intersection/location to StaplesCenter.
 
 Hence, the input.txt file will also contain Jordan's Sunday traffic estimate of traveling time from each location 
